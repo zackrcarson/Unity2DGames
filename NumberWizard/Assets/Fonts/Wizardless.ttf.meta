@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a11cef499c056c8499a7ea3afc257f44
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Wizardless
+  fontNames:
+  - Wizardless
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: adb3b8cd672a34349a4c8606dcd7f0e1, type: 3}
+  - {fileID: 12800000, guid: 048fa5fdaf6c9df4cb5b19b0de55d287, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
