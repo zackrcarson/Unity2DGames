@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47bfd03620f2f1b4d8e04ef7ccde15dc, type: 3}
+  m_Name: Y1. Success
+  m_EditorClassIdentifier: 
+  storyText: 'You found a great spot to start a new life! There is water, plentiful
+    food growing and alien animals running around, and minerals to mine. You gather
+    enough materials to fix your ship, repair it, send out communications for others
+    to join you, and begin your new life on this strange planet. What else could be
+    hiding out there for you to find?
+
+
+    Press any key to start over.'
+  NextStates:
+  - {fileID: 11400000, guid: 13d2085993a78e646a84fe804934a2d2, type: 2}
+  - {fileID: 11400000, guid: 13d2085993a78e646a84fe804934a2d2, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47bfd03620f2f1b4d8e04ef7ccde15dc, type: 3}
+  m_Name: A7. Fast West
+  m_EditorClassIdentifier: 
+  storyText: 'You continue walking.. And walking.. And walking.. You begin to feel
+    tired, thirsty, and hungry. And your suit is running out of oxygen! You keep walking..
+    You see something on the horizon!
+
+
+    What do you do?
+
+    1. Continue walking
+
+    2. Turn around'
+  NextStates:
+  - {fileID: 11400000, guid: 4520c34042422e54faebbaccf1409807, type: 2}
+  - {fileID: 11400000, guid: 70f6a58efafcc7846baab13e7b060dda, type: 2}

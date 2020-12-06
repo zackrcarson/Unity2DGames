@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47bfd03620f2f1b4d8e04ef7ccde15dc, type: 3}
+  m_Name: A3. Rocks
+  m_EditorClassIdentifier: 
+  storyText: 'You investigate the small rocks on the ground, they''re beautiful! They
+    are a multidue of different vibrant colors - red, green, blue, purple, and orange!
+    You put them in your pocket.
+
+
+    What to do next?
+
+    1. Head East
+
+    2. Head West.'
+  NextStates:
+  - {fileID: 11400000, guid: 30e7b4406af5c584790de01e549a25e0, type: 2}
+  - {fileID: 11400000, guid: 898f6af4808740a44b6b66464a3a0f8e, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47bfd03620f2f1b4d8e04ef7ccde15dc, type: 3}
+  m_Name: X1. Game Over
+  m_EditorClassIdentifier: 
+  storyText: 'You continue walking for hours... and hours... and hours.. You''re getting
+    tired, hungry, and thirsty.. And your tank is almost out of oxygen! You ran out
+    of oxygen and die in the toxis atmosphere!!
+
+
+    Press any button to return to the start.'
+  NextStates:
+  - {fileID: 11400000, guid: 13d2085993a78e646a84fe804934a2d2, type: 2}
+  - {fileID: 11400000, guid: 13d2085993a78e646a84fe804934a2d2, type: 2}

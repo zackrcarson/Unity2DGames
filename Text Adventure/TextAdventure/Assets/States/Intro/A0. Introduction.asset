@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47bfd03620f2f1b4d8e04ef7ccde15dc, type: 3}
+  m_Name: A0. Introduction
+  m_EditorClassIdentifier: 
+  storyText: "You are an interstellar explorer. Ten years ago you departed your home
+    planet of Mars to explore the universe, finding new places to start colonies.
+    You've had lots of interesting adventures, but none as crazy as this one.\n\nOne
+    day, as you neared the Omega-Centauri solar system, an alarm began to blare from
+    the center console. All of your major functions have failed, beyond repair! \n\n\"I'm
+    going to die here\" you think to yourself, as you use point your ship to the third
+    planet from the sun. Your momentum carries you to the outer edge of the planet's
+    atmosphere as you begin your entry. Thankfully, most of your re-entry systems
+    are still functional and you crash land rather gracefully, but your ship is toast.
+    You get out and look around..\n\nAt each stage of this story, you'll be asked
+    to push key 1 or 2 based on your choice of progression.\n\nAt any time, push \"q\"
+    to quit."
+  NextStates:
+  - {fileID: 11400000, guid: 54196252bd4c7304ebaeb47cbec532a7, type: 2}
+  - {fileID: 11400000, guid: 54196252bd4c7304ebaeb47cbec532a7, type: 2}
