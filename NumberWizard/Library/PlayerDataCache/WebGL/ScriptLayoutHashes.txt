@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/khfre/Documents/GameDev/Unity2DCourse/Number Wizard/Build
+C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/NumberWizard/Build
 SceneListBegin?
 Assets/Scenes/StartMenu.unity
 Assets/Scenes/CoreGame.unity
