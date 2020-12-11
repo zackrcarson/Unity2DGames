@@ -7,9 +7,14 @@ public class GameSession : MonoBehaviour
     [Range(0.1f, 10f)] [SerializeField] float gameSpeed = 1f;
     [SerializeField] int pointsPerBlockDestroyed = 83;
     [SerializeField] TextMeshProUGUI scoreText = null;
+    [SerializeField] TextMeshProUGUI autoPlayText = null;
+    [SerializeField] TextMeshProUGUI livesLeftText = null;
+
+    [SerializeField] bool autoPlay = false;
 
     // State variables
     int currentScore = 0;
+    int livesLeft = 3;
 
     private void Awake()
     {
@@ -39,7 +44,41 @@ public class GameSession : MonoBehaviour
     {
         Time.timeScale = gameSpeed;
 
-        scoreText.text = currentScore.ToString();
+        scoreText.text = "Score: " + currentScore.ToString();
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            autoPlay = !autoPlay;
+        }
+
+        if (autoPlay)
+        {
+            autoPlayText.text = "Auto-Play ON (A), speed = " + gameSpeed.ToString();
+        }
+        else
+        {
+            autoPlayText.text = "Auto-Play OFF (A), speed = " + gameSpeed.ToString();
+        }
+
+        livesLeftText.text = livesLeft.ToString();
+
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            gameSpeed = 1;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            gameSpeed = 2;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            gameSpeed = 3;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            gameSpeed = 4;
+        }
     }
 
     public void AddToScore()
@@ -50,5 +89,20 @@ public class GameSession : MonoBehaviour
     public void ResetGame()
     {
         Destroy(gameObject);
+    }
+
+    public bool IsAutoPlayEnabled()
+    {
+        return autoPlay;
+    }
+
+    public int LivesRemaining()
+    {
+        return livesLeft;
+    }
+
+    public void RemoveLife()
+    {
+        livesLeft--;
     }
 }

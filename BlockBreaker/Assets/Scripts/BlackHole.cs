@@ -3,7 +3,6 @@
 public class BlackHole : MonoBehaviour
 {
     // Config parameters
-    [SerializeField] Paddle paddle1;
     [SerializeField] float blackHoleRotationSpeed = 100f;
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 15f;
@@ -21,12 +20,14 @@ public class BlackHole : MonoBehaviour
     // Cached component references
     Rigidbody2D myRigidBody2D = null;
     AudioSource myAudioSource = null;
+    Paddle paddle1 = null;
 
     // Use this for initialization
     void Start ()
     {
         myRigidBody2D = GetComponent<Rigidbody2D>();
         myAudioSource = GetComponent<AudioSource>();
+        paddle1 = FindObjectOfType<Paddle>();
 
         paddleToBallVector = transform.position - paddle1.transform.position;
     }
@@ -80,5 +81,10 @@ public class BlackHole : MonoBehaviour
 
             myRigidBody2D.velocity += velocityTweak;
         }
+    }
+
+    public bool HasGameStarted()
+    {
+        return hasStarted;
     }
 }

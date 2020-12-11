@@ -12,11 +12,26 @@ public class SceneLoader : MonoBehaviour
         gameStatus = FindObjectOfType<GameSession>();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ReloadCurrentScene();
+        }
+    }
+
     public void LoadNextScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
         SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
+    public void ReloadCurrentScene()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        SceneManager.LoadScene(currentSceneIndex);
     }
 
     public void LoadNextScene(float delay)
