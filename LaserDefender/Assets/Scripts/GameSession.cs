@@ -4,7 +4,7 @@ public class GameSession : MonoBehaviour
 {
     // State variables
     int currentScore = 0;
-    //int livesLeft = 3;
+    [SerializeField] int playerShipNumber = 1;
 
     private void Awake()
     {
@@ -29,14 +29,6 @@ public class GameSession : MonoBehaviour
         }
     }
 
-    //// Update is called once per frame
-    //void Update()
-    //{
-    //    scoreText.text = currentScore.ToString();
-
-    //    //livesLeftText.text = livesLeft.ToString();
-    //}
-
     public int GetScore()
     {
         return currentScore;
@@ -52,13 +44,13 @@ public class GameSession : MonoBehaviour
         Destroy(gameObject);
     }
 
-    //public int LivesRemaining()
-    //{
-    //    return livesLeft;
-    //}
+    public void SetPlayerShipNumber(int shipNumber)
+    {
+        playerShipNumber = shipNumber;
+    }
 
-    //public void RemoveLife()
-    //{
-    //    livesLeft--;
-    //}
+    public int GetPlayerShipNumber()
+    {
+        return playerShipNumber;
+    }
 }

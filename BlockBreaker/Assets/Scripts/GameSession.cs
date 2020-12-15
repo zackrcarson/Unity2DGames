@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameSession : MonoBehaviour
 {
@@ -53,11 +54,11 @@ public class GameSession : MonoBehaviour
 
         if (autoPlay)
         {
-            autoPlayText.text = "Auto-Play ON (A), speed = " + gameSpeed.ToString();
+            autoPlayText.text = "Auto-Play ON (A key)\nSpeed = " + gameSpeed.ToString() + " (1-4 keys)";
         }
         else
         {
-            autoPlayText.text = "Auto-Play OFF (A), speed = " + gameSpeed.ToString();
+            autoPlayText.text = "Auto-Play OFF (A key)\nSpeed = " + gameSpeed.ToString() + " (1-4 keys)";
         }
 
         livesLeftText.text = livesLeft.ToString();

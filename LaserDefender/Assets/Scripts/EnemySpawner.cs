@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,23 +9,42 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] int startingWave = 0;
     [SerializeField] bool loopWaves = false;
 
+    // StateVariables
+    bool bossDead = false;
+
 	// Use this for initialization
 	IEnumerator Start ()
     {
         do
         {
             yield return StartCoroutine(SpawnAllWaves());
+
+            SetBossAlive();
         }
         while (loopWaves);
 	}
 
     private IEnumerator SpawnAllWaves()
     {
-        for (int waveIndex = startingWave; waveIndex < waveConfigs.Count; waveIndex++)
+        int numberOfWaves = waveConfigs.Count;
+
+        for (int waveIndex = startingWave; waveIndex < numberOfWaves; waveIndex++)
         {
             var currentWave = waveConfigs[waveIndex];
 
-            yield return StartCoroutine(SpawnAllEnemiesInWave(currentWave));
+            if (waveIndex + 1 < numberOfWaves)
+            {
+                yield return StartCoroutine(SpawnAllEnemiesInWave(currentWave));
+            }
+            else if (waveIndex + 1 == numberOfWaves)
+            {
+                StartCoroutine(SpawnAllEnemiesInWave(currentWave));
+
+                while (!bossDead)
+                {
+                    yield return null;
+                }
+            }
         }
     }
 
@@ -47,12 +65,15 @@ public class EnemySpawner : MonoBehaviour
 
             yield return spawnDelayTime;
         }
-
     }
 
-    // Update is called once per frame
-    void Update ()
+    public void SetBossDead()
     {
-		
-	}
+        bossDead = true;
+    }
+
+    private void SetBossAlive()
+    {
+        bossDead = false;
+    }
 }

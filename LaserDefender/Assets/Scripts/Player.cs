@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed = 15f;
     [SerializeField] float xBoundaryPadding = 0.5f;
     [SerializeField] float yBoundaryPadding = 0.5f;
-    [SerializeField] int health = 500;
+    [SerializeField] int health = 1000;
 
     [Header("VFX")]
     [SerializeField] GameObject explosionPrefab = null;
@@ -38,13 +39,21 @@ public class Player : MonoBehaviour
     [SerializeField] [Range(0, 1)] float hitAudioVolume = 1f;
     [SerializeField] [Range(0, 1)] float healthAudioVolume = 1f;
 
+    [Header("Player Ship Sprites")]
+    [SerializeField] Sprite[] shipArray = null;
+    [SerializeField] GameObject[] shipColliderArray = null;
+
     float xMin, xMax, yMin, yMax;
 
+    // State variables
+    bool isShipSetup = false;
+
     // Cached references
-    Coroutine firingCoroutine;
-    Camera mainCamera;
-    Level level;
-    Pause pauseMenu;
+    Coroutine firingCoroutine = null;
+    Camera mainCamera = null;
+    Level level = null;
+    Pause pauseMenu = null;
+    GameSession gameSession = null;
 
     // Use this for initialization
     void Start()
@@ -61,6 +70,11 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isShipSetup)
+        {
+            SetupShip();
+        }
+
         if (!pauseMenu.IsPaused())
         {
             Move();
@@ -68,6 +82,33 @@ public class Player : MonoBehaviour
             Fire();
         }
 	}
+
+    private void SetupShip()
+    {
+        gameSession = FindObjectOfType<GameSession>();
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+
+        int shipNumber = gameSession.GetPlayerShipNumber() - 1;
+
+        PolygonCollider2D playerCollider = GetComponent<PolygonCollider2D>();
+
+        if (shipNumber % 3 == 1)
+        {
+            playerCollider.points = shipColliderArray[0].GetComponent<PolygonCollider2D>().points;
+        }
+        else if (shipNumber % 3 == 2)
+        {
+            playerCollider.points = shipColliderArray[1].GetComponent<PolygonCollider2D>().points;
+        }
+        else
+        {
+            playerCollider.points = playerCollider.points;
+        }
+
+        spriteRenderer.sprite = shipArray[shipNumber];
+
+        isShipSetup = true;
+    }
 
     private void Fire()
     {
@@ -115,7 +156,7 @@ public class Player : MonoBehaviour
         
         if (damageDealer != null)
         {
-            if (otherCollider.tag != "Enemy" && otherCollider.tag != "Player")
+            if (otherCollider.tag != "Enemy" && otherCollider.tag != "Player" && otherCollider.tag != "Boss")
             {
                 damageDealer.Hit();
             }

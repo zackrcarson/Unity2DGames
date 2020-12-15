@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     [Header("Enemy")]
     [SerializeField] float health = 500;
     [SerializeField] int pointsPerDeath = 150;
+    [SerializeField] RectTransform healthBar;
 
     [Header("Projectile")]
     float shotCounter;
@@ -28,13 +29,19 @@ public class Enemy : MonoBehaviour
     // Cached references
     Camera mainCamera = null;
     GameSession gameSession = null;
+    float maximumHealth;
+    float healthBarSize;
+
+    // State variables
+    bool isScoreSetup = false;
 
     // Use this for initialization
     void Start ()
     {
-        mainCamera = Camera.main;
+        maximumHealth = health;
+        healthBarSize = healthBar.sizeDelta.x;
 
-        gameSession = FindObjectOfType<GameSession>();
+        mainCamera = Camera.main;
 
         shotCounter = UnityEngine.Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
     }
@@ -42,6 +49,13 @@ public class Enemy : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        if (!isScoreSetup)
+        {
+            gameSession = FindObjectOfType<GameSession>();
+
+            isScoreSetup = true;
+        }
+
         CountDownAndShoot();
 	}
 
@@ -63,6 +77,17 @@ public class Enemy : MonoBehaviour
 
         laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -projectileSpeed);
 
+        if (tag == "Boss")
+        {
+            GameObject laser1 = Instantiate(laserPrefab, transform.position, Quaternion.identity) as GameObject;
+
+            laser1.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed / 3, -projectileSpeed);
+
+            GameObject laser2 = Instantiate(laserPrefab, transform.position, Quaternion.identity) as GameObject;
+
+            laser2.GetComponent<Rigidbody2D>().velocity = new Vector2(-projectileSpeed / 3, -projectileSpeed);
+        }
+
         shotCounter = UnityEngine.Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
     }
 
@@ -72,7 +97,7 @@ public class Enemy : MonoBehaviour
 
         if (damageDealer == null) { return; }
 
-        if (otherCollider.tag != "Enemy" && otherCollider.tag != "Player")
+        if (otherCollider.tag != "Enemy" && otherCollider.tag != "Player" && otherCollider.tag != "Boss")
         {
             damageDealer.Hit();
         }
@@ -83,6 +108,8 @@ public class Enemy : MonoBehaviour
     private void ProcessHit(DamageDealer damageDealer)
     {
         health -= damageDealer.GetDamage();
+
+        healthBar.sizeDelta = new Vector2((health / maximumHealth) * healthBarSize, healthBar.sizeDelta.y);
 
         if (health <= 0)
         {
@@ -100,5 +127,10 @@ public class Enemy : MonoBehaviour
         Destroy(explosion, explosionLifeTime);
 
         AudioSource.PlayClipAtPoint(deathAudio, mainCamera.transform.position, deathAudioVolume);
+
+        if (tag == "Boss")
+        {
+            FindObjectOfType<EnemySpawner>().SetBossDead();
+        }
     }
 }
