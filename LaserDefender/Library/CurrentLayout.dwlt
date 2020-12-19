@@ -108,10 +108,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 909, y: 471}
-  m_MaxSize: {x: 22004, y: 14021}
+  m_MinSize: {x: 917, y: 471}
+  m_MaxSize: {x: 22012, y: 14021}
   vertical: 0
-  controlID: 26348
+  controlID: 27
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 471}
   m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 26369
+  controlID: 48
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,8 +205,8 @@ MonoBehaviour:
     y: 0
     width: 338
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -231,8 +231,8 @@ MonoBehaviour:
     y: 0
     width: 713
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -369,9 +369,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 4c320000
     m_LastClickedID: 0
-    m_ExpandedIDs: d25deaff8e5eeaff5860eaff6261eaff6a62eaff7a62eaff586deaffa882eaff9896eaff5697eaff2099eaff2a9aeaff329beaff429beafff0aeeaffaeafeaff78b1eaff82b2eaff8ab3eaff9ab3eaffc026ecff522aecfffc41ecff884fecff4650ecff1052ecff1a53ecff2254ecff3254ecffe6b5efff88ccefff4e90f0ff5892f0ff1efff0ffa800f1ff6416f1ff9c54f1ff3a9bf2ff5630f6ffcc3af6ff103ef6ff3eb7f6ff70ddf6ffe0fdf6ff7c26f7ff3e46f7ff4046f7ffae54f7ff3a5ff7ff2abff7ff24d0f7fffaddf7ff08e8f7ff2ae8f7ffca33f8ff0234f8ff9a4cf8ff1857f8ff3857f8ff360ff9ff061ff9ff4643fbff4843fbff5645fbff5845fbffbe46fbffc046fbff84d1fcff76d8fcff28dbfcff4cdbfcff5adbfcff68dbfcff74dbfcffea0ffdff7417fdff3e20fdfff424fdffaa29fdffc82efdff4e35fdff143afdffbc40fdffca48fdffdc5efdff2e6dfdffa472fdffe281fdff36c0fdffecd3fdffc6dbfdffe0f0fdff048dffff2cccffffe6fbfffff4ffffff00000000523c00006c9e0000d89f00006cc70000
+    m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,20 +457,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/VFX
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/VFX
   m_LastFoldersGridSize: 65
   m_LastProjectPath: C:\Users\khfre\Documents\GameDev\Unity2DCourse\Unity2DGames\LaserDefender
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f02a0000
-    m_LastClickedID: 10992
-    m_ExpandedIDs: 00000000162a000072300000a231000000ca9a3b
+    m_SelectedIDs: 6a2a0000
+    m_LastClickedID: 10858
+    m_ExpandedIDs: 00000000162a000076300000ae31000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -498,7 +498,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000162a000072300000a231000000ca9a3b
+    m_ExpandedIDs: 00000000162a000076300000ae310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300002a2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
