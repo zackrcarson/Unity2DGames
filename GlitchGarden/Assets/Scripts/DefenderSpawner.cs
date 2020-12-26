@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class DefenderSpawner : MonoBehaviour
 {
@@ -9,11 +11,18 @@ public class DefenderSpawner : MonoBehaviour
     SunDisplay sunDisplay;
     DefenderButton[] defenderButtons;
 
+    // State Variables
+    Dictionary<string, int> defenderArrayDict;
+
+    // TODO: Remove key from dictionary if defender destroyed!!!
+
     private void Start()
     {
         sunDisplay = FindObjectOfType<SunDisplay>();
 
         defenderButtons = FindObjectsOfType<DefenderButton>();
+
+        defenderArrayDict = new Dictionary<string, int>();
     }
 
     public void SetSelectedDefender(Defender defenderToSet)
@@ -28,6 +37,10 @@ public class DefenderSpawner : MonoBehaviour
 
     private void AttemptToSpawnDefender(Vector2 gridPos)
     {
+        string locationKey = ((int)gridPos.x).ToString() + ":" + ((int)gridPos.y).ToString();
+
+        bool keyExists = defenderArrayDict.ContainsKey(locationKey);
+
         // Check if we actually have any buttons clicked (Sometimes the defender has been populated, but the button was un-clicked)
         bool areAnyClicked = false;
         foreach (DefenderButton defenderButton in defenderButtons)
@@ -40,7 +53,7 @@ public class DefenderSpawner : MonoBehaviour
         }
 
         // Don't spawn anything if either the defender isn't populated yet, or if so, still don't do it if no buttons are pressed
-        if (!defender || !areAnyClicked) { return; }
+        if (!defender || !areAnyClicked || keyExists) { return; }
 
         int spawnCost = defender.GetSunCost();
 
@@ -50,6 +63,8 @@ public class DefenderSpawner : MonoBehaviour
             SpawnDefender(gridPos);
 
             sunDisplay.RemoveSuns(spawnCost);
+
+            defenderArrayDict.Add(locationKey, 1);
         }
     }
 
@@ -75,5 +90,14 @@ public class DefenderSpawner : MonoBehaviour
         Defender newDefender = Instantiate(defender, spawnCoordinates, Quaternion.identity) as Defender;
 
         newDefender.transform.parent = transform;
+    }
+
+    public void RemoveKey(Vector2 worldPos)
+    {
+        Vector2 gridPos = SnapToGrid(worldPos);
+
+        string keyToRemove = ((int)gridPos.x).ToString() + ":" + ((int)gridPos.y).ToString();
+
+        defenderArrayDict.Remove(keyToRemove);
     }
 }

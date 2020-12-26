@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: X1. Game Over
   m_EditorClassIdentifier: 
   storyText: 'You continue walking for hours... and hours... and hours.. You''re getting
-    tired, hungry, and thirsty.. And your tank is almost out of oxygen! You ran out
-    of oxygen and die in the toxis atmosphere!!
+    tired, hungry, and thirsty.. And your tank is almost out of oxygen... Eventually,
+    you run out of oxygen and die in the toxic atmosphere!!
 
 
-    Press any button to return to the start.'
+    Press either 1 or 2 to return to the start.'
   NextStates:
   - {fileID: 11400000, guid: 13d2085993a78e646a84fe804934a2d2, type: 2}
   - {fileID: 11400000, guid: 13d2085993a78e646a84fe804934a2d2, type: 2}

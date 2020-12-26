@@ -11,6 +11,21 @@ public class Health : MonoBehaviour
 
     [SerializeField] float VFXLifetime = 1f;
 
+    // State Variables
+    bool isDefender;
+
+    // Cached References
+    DefenderSpawner defenderSpawner = null;
+
+    private void Start()
+    {
+        defenderSpawner = FindObjectOfType<DefenderSpawner>();
+
+        Defender defender = GetComponent<Defender>();
+
+        if (defender) { isDefender = true; }
+        else { isDefender = false;  }
+    }
 
     public void DealDamage(int damage)
     {
@@ -39,6 +54,11 @@ public class Health : MonoBehaviour
     {
         TriggerDeathVFX();
 
+        if (isDefender)
+        {
+            defenderSpawner.RemoveKey(gameObject.transform.position);
+        }
+
         Destroy(gameObject);
     }
 
@@ -49,5 +69,10 @@ public class Health : MonoBehaviour
         GameObject death = Instantiate(deathVFX, gameObject.transform.position, Quaternion.identity) as GameObject;
 
         Destroy(death, VFXLifetime);
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 }

@@ -36,7 +36,7 @@ public class DefenderButton : MonoBehaviour
         {
             spriteRenderer.color = Color.black;
 
-            isClicked = false;
+            //isClicked = false;
         }
         else if (isClicked)
         {

@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50529986688748250}
   - component: {fileID: 60044677204896108}
   - component: {fileID: 95658437737347824}
+  - component: {fileID: 114085925087265244}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Attacker
@@ -103,7 +104,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.28}
@@ -186,6 +187,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114085925087265244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457141728509720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9be2e91df1cc04cba81de607faaddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114323637197736112
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -246,7 +258,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 62075aa0fa87461479b81739c9c37d0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -51,8 +51,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4385985596079982}
-  - component: {fileID: 114521608526642526}
   - component: {fileID: 61539862700173068}
+  - component: {fileID: 114368833956893048}
   m_Layer: 0
   m_Name: Left Shredder
   m_TagString: Untagged
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac554835cd1415f47b1d011c2fb45510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114521608526642526
+--- !u!114 &114368833956893048
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,6 +170,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1886021653404826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac554835cd1415f47b1d011c2fb45510, type: 3}
+  m_Script: {fileID: 11500000, guid: 656ff5ad6c9279e4aa1b08c397238609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -18,7 +18,7 @@ MonoBehaviour:
     hiding out there for you to find?
 
 
-    Press any key to start over.'
+    Press either 1 or 2 to start over.'
   NextStates:
   - {fileID: 11400000, guid: 13d2085993a78e646a84fe804934a2d2, type: 2}
   - {fileID: 11400000, guid: 13d2085993a78e646a84fe804934a2d2, type: 2}

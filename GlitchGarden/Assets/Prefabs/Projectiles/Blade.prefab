@@ -149,9 +149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acfd90e669f9c96438e149138ae2f897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 6
-  projectileRotation: -700
-  projectileDamage: 50
+  projectileSpeed: 8
+  projectileRotation: -800
+  projectileDamage: 20
 --- !u!212 &212088821331720692
 SpriteRenderer:
   m_ObjectHideFlags: 1
