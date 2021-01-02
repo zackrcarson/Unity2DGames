@@ -5,8 +5,11 @@ public class AttackerSpawner : MonoBehaviour
 {
     // Config params
     [SerializeField] Attacker[] attackerPrefabArray = null;
+    [SerializeField] float initialMinSpawnDelay = 2f;
+    [SerializeField] float initialMaxSpawnDelay = 6f;
     [SerializeField] float minSpawnDelay = 1f;
     [SerializeField] float maxSpawnDelay = 5f;
+    float initialLevelDelay = 4f;
 
     // State params
     bool spawn = true;
@@ -14,13 +17,20 @@ public class AttackerSpawner : MonoBehaviour
 	// Use this for initialization
 	IEnumerator Start ()
     {
-		if (spawn)
+        float spawnTime = initialLevelDelay + Random.Range(initialMinSpawnDelay, initialMaxSpawnDelay);
+        yield return new WaitForSeconds(spawnTime);
+
+        SpawnAttacker();
+
+        spawnTime = Random.Range(minSpawnDelay, maxSpawnDelay);
+        yield return new WaitForSeconds(spawnTime);
+
+        while (spawn)
         {
-            float spawnTime = Random.Range(minSpawnDelay, maxSpawnDelay);
-
-            yield return new WaitForSeconds(spawnTime);
-
             SpawnAttacker();
+
+            spawnTime = Random.Range(minSpawnDelay, maxSpawnDelay);
+            yield return new WaitForSeconds(spawnTime);
         }
     }
 

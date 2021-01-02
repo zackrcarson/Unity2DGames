@@ -1,28 +1,48 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 public class DefenderSpawner : MonoBehaviour
 {
     // Config Params
-    Defender defender = null;
+    [SerializeField] AudioClip spawnAudio;
 
     // Cached References
+    Defender defender = null;
     SunDisplay sunDisplay;
     DefenderButton[] defenderButtons;
+    LevelController levelController;
+
+    GameObject defenderParent;
+    const string DEFENDER_PARENT_NAME = "Defenders";
+
+    AudioSource audioSource;
 
     // State Variables
     Dictionary<string, int> defenderArrayDict;
 
-    // TODO: Remove key from dictionary if defender destroyed!!!
-
     private void Start()
     {
+        CreateDefenderParent();
+
+        audioSource = GetComponent<AudioSource>();
+
         sunDisplay = FindObjectOfType<SunDisplay>();
 
         defenderButtons = FindObjectsOfType<DefenderButton>();
 
         defenderArrayDict = new Dictionary<string, int>();
+
+        levelController = FindObjectOfType<LevelController>();
+    }
+
+    public void CreateDefenderParent()
+    {
+        defenderParent = GameObject.Find(DEFENDER_PARENT_NAME);
+
+        if (!defenderParent)
+        {
+            defenderParent = new GameObject(DEFENDER_PARENT_NAME);
+        }
     }
 
     public void SetSelectedDefender(Defender defenderToSet)
@@ -32,7 +52,10 @@ public class DefenderSpawner : MonoBehaviour
 
     void OnMouseDown()
     {
-        AttemptToSpawnDefender(GetSquareClicked());
+        if (!levelController.IsPaused())
+        {
+            AttemptToSpawnDefender(GetSquareClicked());
+        }
     }
 
     private void AttemptToSpawnDefender(Vector2 gridPos)
@@ -87,9 +110,14 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 spawnCoordinates)
     {
+        if (spawnAudio)
+        {
+            audioSource.PlayOneShot(spawnAudio);
+        }
+
         Defender newDefender = Instantiate(defender, spawnCoordinates, Quaternion.identity) as Defender;
 
-        newDefender.transform.parent = transform;
+        newDefender.transform.parent = defenderParent.transform;
     }
 
     public void RemoveKey(Vector2 worldPos)

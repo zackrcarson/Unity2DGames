@@ -2,12 +2,11 @@
 
 public class Attacker : MonoBehaviour
 {
-    //           |   Lizard     Fox     Jello     Jabba
-    // --------------------------------------------------
-    //  Speed    |   Medium     Fast    Medium     Slow
-    //  Attack   |   Medium     Low      None      Huge
-    //  Health   |   Medium     Low     Medium     Huge
-    //  Special  |   None       Jump   Ghosting      ?
+    // Config Params
+    [SerializeField] float difficultyModifier = 1f;
+    [SerializeField] int damage = 30;
+    [SerializeField] float speed = 1f;
+    [SerializeField] float jumpSpeed = 1.5f;
 
     // Cached references
     Animator animator = null;
@@ -16,9 +15,12 @@ public class Attacker : MonoBehaviour
     // State parameters
     float currentSpeed = 1f;
     GameObject currentTarget = null;
+    int difficulty;
 
     private void Awake()
     {
+        difficulty = PlayerPrefsController.GetDifficulty();
+
         animator = GetComponent<Animator>();
 
         levelController = FindObjectOfType<LevelController>();
@@ -27,7 +29,10 @@ public class Attacker : MonoBehaviour
 
     private void OnDestroy()
     {
-        levelController.AttackerDestroyed();
+        if (levelController != null)
+        {
+            levelController.AttackerDestroyed();
+        }
     }
 
     // Update is called once per frame
@@ -46,9 +51,25 @@ public class Attacker : MonoBehaviour
         }
     }
 
-    public void SetMovementSpeed(float speed)
+    public void SetJumpMovementSpeed()
     {
-        currentSpeed = speed;
+        float modifiedSpeed = jumpSpeed + difficultyModifier * jumpSpeed * (((float)difficulty - 3) / 5);
+
+        currentSpeed = modifiedSpeed;
+    }
+
+    public void SetCustomMovementSpeed(float inputSpeed)
+    {
+        float modifiedSpeed = inputSpeed + difficultyModifier * inputSpeed * (((float)difficulty - 3) / 5);
+
+        currentSpeed = modifiedSpeed;
+    }
+
+    public void SetMovementSpeed()
+    {
+        float modifiedSpeed = speed + difficultyModifier * speed * (((float)difficulty - 3) / 5);
+
+        currentSpeed = modifiedSpeed;
     }
 
     public void Attack(GameObject target)
@@ -63,14 +84,16 @@ public class Attacker : MonoBehaviour
         animator.SetBool("isAttacking", false);
     }
 
-    public void StrikeCurrentTarget(int damage)
+    public void StrikeCurrentTarget()
     {
+        int modifiedDamage = Mathf.RoundToInt(damage + difficultyModifier * damage * (((float)difficulty - 3) / 5));
+
         if (!currentTarget) { return; }
 
         Health health = currentTarget.GetComponent<Health>();
 
         if (!health) { return; }
 
-        health.DealDamage(damage);
+        health.DealDamage(modifiedDamage);
     }
 }

@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpeed: 8
   projectileRotation: -800
-  projectileDamage: 20
+  projectileDamage: 50
 --- !u!212 &212088821331720692
 SpriteRenderer:
   m_ObjectHideFlags: 1

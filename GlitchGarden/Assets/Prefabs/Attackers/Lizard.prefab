@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 60044677204896108}
   - component: {fileID: 95658437737347824}
   - component: {fileID: 114085925087265244}
+  - component: {fileID: 82635862579534010}
+  - component: {fileID: 114492446486387682}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Attacker
@@ -169,6 +171,101 @@ PolygonCollider2D:
       - {x: -0.17447996, y: -0.6144842}
       - {x: -0.09982538, y: -0.57775784}
       - {x: -0.0951705, y: -0.53086114}
+--- !u!82 &82635862579534010
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457141728509720}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95658437737347824
 Animator:
   serializedVersion: 3
@@ -209,6 +306,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b179249a62576b4ba7a10248be6bd46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  difficultyModifier: 1
+  damage: 20
+  speed: 1
+  jumpSpeed: 1.5
+--- !u!114 &114492446486387682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457141728509720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8b75844a9adba438cdd119d22ee8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114553666543611504
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -220,10 +332,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38ed5674a952e944eba63f96921a806a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 300
   deathVFX: {fileID: 1218311589995326, guid: 443f7b9aeca616543a09f0fb24802166, type: 2}
   hitVFX: {fileID: 1218311589995326, guid: 682defbfbe65f524baabc132d684e569, type: 2}
   VFXLifetime: 1
+  hitAudio: {fileID: 8300000, guid: 6651678bea2358a449c8f84c74a2149f, type: 3}
+  deathAudio: {fileID: 8300000, guid: 63cc7ee64978fcb4ea870ee1d5fa43d7, type: 3}
+  damageTextAnimationPrefab: {fileID: 1211988386998734, guid: 2d55acb60bcde33458b58a2fef7dbb59,
+    type: 2}
+  TextAnimationLifeTime: 1
+  TextAnimationOffset: 0.6
 --- !u!212 &212206419603497142
 SpriteRenderer:
   m_ObjectHideFlags: 1

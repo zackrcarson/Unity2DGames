@@ -13,20 +13,25 @@ public class LevelController : MonoBehaviour
     [SerializeField] AudioClip winClip;
     [SerializeField] AudioClip loseClip;
 
+    [SerializeField] GameObject pauseMenu;
+
     // Cached references
     AttackerSpawner[] attackerSpawners;
     LevelLoader levelLoader;
     AudioSource audioSource;
-    Health health;
+    LivesDisplay lives;
+    OptionsController optionsController;
+    SoundEffects[] soundEffectAudioSources;
 
     // State Variables
     int numberOfEnemiesRemaining = 0;
     bool isTimerExpired = false;
     bool isLevelOver = false;
+    bool isPaused = false;
 
     private void Start()
     {
-        health = FindObjectOfType<Health>();
+        lives = FindObjectOfType<LivesDisplay>();
 
         attackerSpawners = FindObjectsOfType<AttackerSpawner>();
 
@@ -34,8 +39,57 @@ public class LevelController : MonoBehaviour
 
         audioSource = GetComponent<AudioSource>();
 
+        soundEffectAudioSources = FindObjectsOfType<SoundEffects>();
+
         winBanner.SetActive(false);
         loseBanner.SetActive(false);
+
+        pauseMenu.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!isPaused)
+            {
+                PauseGame();
+            }
+            else
+            {
+                UnpauseGame();
+            }
+        }
+    }
+
+    public void PauseGame()
+    {
+        gameMusic.Stop();
+
+        Time.timeScale = 0;
+
+        pauseMenu.SetActive(true);
+
+        isPaused = true;
+    }
+
+    public void UnpauseGame()
+    {
+        gameMusic.Play();
+
+        optionsController = FindObjectOfType<OptionsController>();
+        optionsController.SaveAndDontExit();
+
+        foreach (SoundEffects soundEffect in soundEffectAudioSources)
+        {
+            soundEffect.SetVolume(PlayerPrefsController.GetEffectsVolume());
+        }
+
+        Time.timeScale = 1;
+
+        pauseMenu.SetActive(false);
+
+        isPaused = false;
     }
 
     public void AttackerSpawned()
@@ -52,7 +106,7 @@ public class LevelController : MonoBehaviour
 
     private void CheckIfLevelWon()
     {
-        if (isTimerExpired && numberOfEnemiesRemaining <= 0 && !isLevelOver && health.GetHealth() > 0)
+        if (isTimerExpired && numberOfEnemiesRemaining <= 0 && !isLevelOver && lives.GetLives() > 0)
         {
             StartCoroutine(HandleLevelWon());
         }
@@ -63,7 +117,7 @@ public class LevelController : MonoBehaviour
         isLevelOver = true;
 
         gameMusic.Stop();
-
+        
         winBanner.SetActive(true);
 
         audioSource.PlayOneShot(winClip);
@@ -99,5 +153,10 @@ public class LevelController : MonoBehaviour
         StopSpawningAttackers();
 
         CheckIfLevelWon();
+    }
+
+    public bool IsPaused()
+    {
+        return isPaused;
     }
 }

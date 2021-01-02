@@ -10,16 +10,33 @@ public class Shooter : MonoBehaviour
     // Cached References
     AttackerSpawner myLaneSpawner;
     Animator animator;
+    
+    GameObject projectileParent;
+    const string PROJECTILE_PARENT_NAME = "Projectiles";
 
     private void Start()
     {
         animator = GetComponent<Animator>();
 
-        SetLaneSpawner();    
+        SetLaneSpawner();
+
+        CreateProjectileParent();
+    }
+
+    public void CreateProjectileParent()
+    {
+        projectileParent = GameObject.Find(PROJECTILE_PARENT_NAME);
+
+        if (!projectileParent)
+        {
+            projectileParent = new GameObject(PROJECTILE_PARENT_NAME);
+        }
     }
 
     private void Update()
     {
+        if (!myLaneSpawner) { return; }
+
         if (IsAttackerInLane() && IsAttackerInFront())
         {
             animator.SetBool("isAttacking", true);
@@ -76,6 +93,8 @@ public class Shooter : MonoBehaviour
 
     public void Fire()
     {
-        Instantiate(projectilePrefab, gunTransform.transform.position, Quaternion.identity);
+        GameObject newProjectile = Instantiate(projectilePrefab, gunTransform.transform.position, Quaternion.identity) as GameObject;
+
+        newProjectile.transform.parent = projectileParent.transform;
     }
 }

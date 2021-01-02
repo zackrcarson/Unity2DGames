@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
 
 public class DefenderButton : MonoBehaviour
@@ -9,6 +8,7 @@ public class DefenderButton : MonoBehaviour
 
     // State variables
     bool isClicked = false;
+    int cost;
 
     //Cached references
     SpriteRenderer spriteRenderer;
@@ -16,9 +16,19 @@ public class DefenderButton : MonoBehaviour
     Color32 defaultColor;
     DefenderSpawner defenderSpawner;
     SunDisplay sunDisplay;
+    LevelController levelController;
 
     private void Start()
     {
+        if (!defenderPrefab)
+        {
+            Debug.LogError(name + " has no defender prefab!");
+            return;
+        }
+        cost = defenderPrefab.GetSunCost();
+
+        LabelCostButton();
+
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         defaultColor = spriteRenderer.color;
 
@@ -27,12 +37,27 @@ public class DefenderButton : MonoBehaviour
         defenderSpawner = FindObjectOfType<DefenderSpawner>();
 
         sunDisplay = FindObjectOfType<SunDisplay>();
+
+        levelController = FindObjectOfType<LevelController>();
+    }
+
+    private void LabelCostButton()
+    {
+        TextMeshProUGUI costText = GetComponentInChildren<TextMeshProUGUI>();
+
+        if (!costText)
+        {
+            Debug.LogError(name + " has no cost!");
+            return;
+        }
+        
+        costText.text = cost.ToString();
     }
 
     private void Update()
     {
         // If we don't have enough suns, make it black. If we do, and it is currently clicked, make it white. If we do, and it is NOT clicked, make it the grayed out color
-        if (!sunDisplay.HaveEnoughSuns(defenderPrefab.GetSunCost()))
+        if (!sunDisplay.HaveEnoughSuns(cost))
         {
             spriteRenderer.color = Color.black;
 
@@ -50,16 +75,19 @@ public class DefenderButton : MonoBehaviour
 
     public void OnMouseDown()
     {
-        // Only allow us to click the button if we have enough stars for it.
-        if (sunDisplay.HaveEnoughSuns(defenderPrefab.GetSunCost()))
+        if (!levelController.IsPaused())
         {
-            ResetDisplay();
+            // Only allow us to click the button if we have enough stars for it.
+            if (sunDisplay.HaveEnoughSuns(cost))
+            {
+                ResetDisplay();
 
-            spriteRenderer.color = Color.white;
+                spriteRenderer.color = Color.white;
 
-            defenderSpawner.SetSelectedDefender(defenderPrefab);
+                defenderSpawner.SetSelectedDefender(defenderPrefab);
 
-            isClicked = true;
+                isClicked = true;
+            }
         }
     }
 

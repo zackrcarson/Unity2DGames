@@ -16,13 +16,13 @@ public class LevelLoader : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        finalSceneIndex = SceneManager.sceneCount - 1;
+        finalSceneIndex = SceneManager.sceneCountInBuildSettings - 1;
 
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         
-        if (currentSceneIndex == 0)
+        if (currentSceneIndex == 0 || currentSceneIndex == 1)
         {
-            StartCoroutine(WaitForTimeAndLoadNextScene(loadTime));
+            StartCoroutine(WaitForTimeAndLoadStartScene(loadTime));
         }
     }
 
@@ -41,10 +41,10 @@ public class LevelLoader : MonoBehaviour
     public void LoadNextLevel()
     {
         ResetTimeScale();
-
+        
         if (currentSceneIndex == finalSceneIndex)
         {
-            SceneManager.LoadScene("Win Screen");
+            SceneManager.LoadScene("Win Screen"); // TODO: Make a win screen?
         }
         else
         {
@@ -66,11 +66,30 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene("Splash Screen");
     }
 
-    private IEnumerator WaitForTimeAndLoadNextScene(float delay)
+    public void LoadSplashScreenNoDefaultPrefs()
+    {
+        ResetTimeScale();
+
+        SceneManager.LoadScene("Splash Screen No Default Prefs");
+    }
+
+    public void LoadStartScreen()
+    {
+        ResetTimeScale();
+
+        SceneManager.LoadScene("Start Screen");
+    }
+
+    public void LoadOptionsScreen()
+    {
+        SceneManager.LoadScene("Options Screen");
+    }
+
+    private IEnumerator WaitForTimeAndLoadStartScene(float delay)
     {
         yield return new WaitForSeconds(delay);
 
-        LoadNextLevel();
+        LoadStartScreen();
     }
 
     public void LoadGameOver()
