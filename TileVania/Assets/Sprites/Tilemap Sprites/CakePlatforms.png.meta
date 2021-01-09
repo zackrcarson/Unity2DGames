@@ -1,0 +1,3932 @@
+fileFormatVersion: 2
+guid: ba8603516205f9c44a18e4fc05617599
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: CakePlatforms_0
+  - first:
+      213: 21300002
+    second: CakePlatforms_1
+  - first:
+      213: 21300004
+    second: CakePlatforms_2
+  - first:
+      213: 21300006
+    second: CakePlatforms_3
+  - first:
+      213: 21300008
+    second: CakePlatforms_4
+  - first:
+      213: 21300010
+    second: CakePlatforms_5
+  - first:
+      213: 21300012
+    second: CakePlatforms_6
+  - first:
+      213: 21300014
+    second: CakePlatforms_7
+  - first:
+      213: 21300016
+    second: CakePlatforms_8
+  - first:
+      213: 21300018
+    second: CakePlatforms_9
+  - first:
+      213: 21300020
+    second: CakePlatforms_10
+  - first:
+      213: 21300022
+    second: CakePlatforms_11
+  - first:
+      213: 21300024
+    second: CakePlatforms_12
+  - first:
+      213: 21300026
+    second: CakePlatforms_13
+  - first:
+      213: 21300028
+    second: CakePlatforms_14
+  - first:
+      213: 21300030
+    second: CakePlatforms_15
+  - first:
+      213: 21300032
+    second: CakePlatforms_16
+  - first:
+      213: 21300034
+    second: CakePlatforms_17
+  - first:
+      213: 21300036
+    second: CakePlatforms_18
+  - first:
+      213: 21300038
+    second: CakePlatforms_19
+  - first:
+      213: 21300040
+    second: CakePlatforms_20
+  - first:
+      213: 21300042
+    second: CakePlatforms_21
+  - first:
+      213: 21300044
+    second: CakePlatforms_22
+  - first:
+      213: 21300046
+    second: CakePlatforms_23
+  - first:
+      213: 21300048
+    second: CakePlatforms_24
+  - first:
+      213: 21300050
+    second: CakePlatforms_25
+  - first:
+      213: 21300052
+    second: CakePlatforms_26
+  - first:
+      213: 21300054
+    second: CakePlatforms_27
+  - first:
+      213: 21300056
+    second: CakePlatforms_28
+  - first:
+      213: 21300058
+    second: CakePlatforms_29
+  - first:
+      213: 21300060
+    second: CakePlatforms_30
+  - first:
+      213: 21300062
+    second: CakePlatforms_31
+  - first:
+      213: 21300064
+    second: CakePlatforms_32
+  - first:
+      213: 21300066
+    second: CakePlatforms_33
+  - first:
+      213: 21300068
+    second: CakePlatforms_34
+  - first:
+      213: 21300070
+    second: CakePlatforms_35
+  - first:
+      213: 21300072
+    second: CakePlatforms_36
+  - first:
+      213: 21300074
+    second: CakePlatforms_37
+  - first:
+      213: 21300076
+    second: CakePlatforms_38
+  - first:
+      213: 21300078
+    second: CakePlatforms_39
+  - first:
+      213: 21300080
+    second: CakePlatforms_40
+  - first:
+      213: 21300082
+    second: CakePlatforms_41
+  - first:
+      213: 21300084
+    second: CakePlatforms_42
+  - first:
+      213: 21300086
+    second: CakePlatforms_43
+  - first:
+      213: 21300088
+    second: CakePlatforms_44
+  - first:
+      213: 21300090
+    second: CakePlatforms_45
+  - first:
+      213: 21300092
+    second: CakePlatforms_46
+  - first:
+      213: 21300094
+    second: CakePlatforms_47
+  - first:
+      213: 21300096
+    second: CakePlatforms_48
+  - first:
+      213: 21300098
+    second: CakePlatforms_49
+  - first:
+      213: 21300100
+    second: CakePlatforms_50
+  - first:
+      213: 21300102
+    second: CakePlatforms_51
+  - first:
+      213: 21300104
+    second: CakePlatforms_52
+  - first:
+      213: 21300106
+    second: CakePlatforms_53
+  - first:
+      213: 21300108
+    second: CakePlatforms_54
+  - first:
+      213: 21300110
+    second: CakePlatforms_55
+  - first:
+      213: 21300112
+    second: CakePlatforms_56
+  - first:
+      213: 21300114
+    second: CakePlatforms_57
+  - first:
+      213: 21300116
+    second: CakePlatforms_58
+  - first:
+      213: 21300118
+    second: CakePlatforms_59
+  - first:
+      213: 21300120
+    second: CakePlatforms_60
+  - first:
+      213: 21300122
+    second: CakePlatforms_61
+  - first:
+      213: 21300124
+    second: CakePlatforms_62
+  - first:
+      213: 21300126
+    second: CakePlatforms_63
+  - first:
+      213: 21300128
+    second: CakePlatforms_64
+  - first:
+      213: 21300130
+    second: CakePlatforms_65
+  - first:
+      213: 21300132
+    second: CakePlatforms_66
+  - first:
+      213: 21300134
+    second: CakePlatforms_67
+  - first:
+      213: 21300136
+    second: CakePlatforms_68
+  - first:
+      213: 21300138
+    second: CakePlatforms_69
+  - first:
+      213: 21300140
+    second: CakePlatforms_70
+  - first:
+      213: 21300142
+    second: CakePlatforms_71
+  - first:
+      213: 21300144
+    second: CakePlatforms_72
+  - first:
+      213: 21300146
+    second: CakePlatforms_73
+  - first:
+      213: 21300148
+    second: CakePlatforms_74
+  - first:
+      213: 21300150
+    second: CakePlatforms_75
+  - first:
+      213: 21300152
+    second: CakePlatforms_76
+  - first:
+      213: 21300154
+    second: CakePlatforms_77
+  - first:
+      213: 21300156
+    second: CakePlatforms_78
+  - first:
+      213: 21300158
+    second: CakePlatforms_79
+  - first:
+      213: 21300160
+    second: CakePlatforms_80
+  - first:
+      213: 21300162
+    second: CakePlatforms_81
+  - first:
+      213: 21300164
+    second: CakePlatforms_82
+  - first:
+      213: 21300166
+    second: CakePlatforms_83
+  - first:
+      213: 21300168
+    second: CakePlatforms_84
+  - first:
+      213: 21300170
+    second: CakePlatforms_85
+  - first:
+      213: 21300172
+    second: CakePlatforms_86
+  - first:
+      213: 21300174
+    second: CakePlatforms_87
+  - first:
+      213: 21300176
+    second: CakePlatforms_88
+  - first:
+      213: 21300178
+    second: CakePlatforms_89
+  - first:
+      213: 21300180
+    second: CakePlatforms_90
+  - first:
+      213: 21300182
+    second: CakePlatforms_91
+  - first:
+      213: 21300184
+    second: CakePlatforms_92
+  - first:
+      213: 21300186
+    second: CakePlatforms_93
+  - first:
+      213: 21300188
+    second: CakePlatforms_94
+  - first:
+      213: 21300190
+    second: CakePlatforms_95
+  - first:
+      213: 21300192
+    second: CakePlatforms_96
+  - first:
+      213: 21300194
+    second: CakePlatforms_97
+  - first:
+      213: 21300196
+    second: CakePlatforms_98
+  - first:
+      213: 21300198
+    second: CakePlatforms_99
+  - first:
+      213: 21300200
+    second: CakePlatforms_100
+  - first:
+      213: 21300202
+    second: CakePlatforms_101
+  - first:
+      213: 21300204
+    second: CakePlatforms_102
+  - first:
+      213: 21300206
+    second: CakePlatforms_103
+  - first:
+      213: 21300208
+    second: CakePlatforms_104
+  - first:
+      213: 21300210
+    second: CakePlatforms_105
+  - first:
+      213: 21300212
+    second: CakePlatforms_106
+  - first:
+      213: 21300214
+    second: CakePlatforms_107
+  - first:
+      213: 21300216
+    second: CakePlatforms_108
+  - first:
+      213: 21300218
+    second: CakePlatforms_109
+  - first:
+      213: 21300220
+    second: CakePlatforms_110
+  - first:
+      213: 21300222
+    second: CakePlatforms_111
+  - first:
+      213: 21300224
+    second: CakePlatforms_112
+  - first:
+      213: 21300226
+    second: CakePlatforms_113
+  - first:
+      213: 21300228
+    second: CakePlatforms_114
+  - first:
+      213: 21300230
+    second: CakePlatforms_115
+  - first:
+      213: 21300232
+    second: CakePlatforms_116
+  - first:
+      213: 21300234
+    second: CakePlatforms_117
+  - first:
+      213: 21300236
+    second: CakePlatforms_118
+  - first:
+      213: 21300238
+    second: CakePlatforms_119
+  - first:
+      213: 21300240
+    second: CakePlatforms_120
+  - first:
+      213: 21300242
+    second: CakePlatforms_121
+  - first:
+      213: 21300244
+    second: CakePlatforms_122
+  - first:
+      213: 21300246
+    second: CakePlatforms_123
+  - first:
+      213: 21300248
+    second: CakePlatforms_124
+  - first:
+      213: 21300250
+    second: CakePlatforms_125
+  - first:
+      213: 21300252
+    second: CakePlatforms_126
+  - first:
+      213: 21300254
+    second: CakePlatforms_127
+  - first:
+      213: 21300256
+    second: CakePlatforms_128
+  - first:
+      213: 21300258
+    second: CakePlatforms_129
+  - first:
+      213: 21300260
+    second: CakePlatforms_130
+  - first:
+      213: 21300262
+    second: CakePlatforms_131
+  - first:
+      213: 21300264
+    second: CakePlatforms_132
+  - first:
+      213: 21300266
+    second: CakePlatforms_133
+  - first:
+      213: 21300268
+    second: CakePlatforms_134
+  - first:
+      213: 21300270
+    second: CakePlatforms_135
+  - first:
+      213: 21300272
+    second: CakePlatforms_136
+  - first:
+      213: 21300274
+    second: CakePlatforms_137
+  - first:
+      213: 21300276
+    second: CakePlatforms_138
+  - first:
+      213: 21300278
+    second: CakePlatforms_139
+  - first:
+      213: 21300280
+    second: CakePlatforms_140
+  - first:
+      213: 21300282
+    second: CakePlatforms_141
+  - first:
+      213: 21300284
+    second: CakePlatforms_142
+  - first:
+      213: 21300286
+    second: CakePlatforms_143
+  - first:
+      213: 21300288
+    second: CakePlatforms_144
+  - first:
+      213: 21300290
+    second: CakePlatforms_145
+  - first:
+      213: 21300292
+    second: CakePlatforms_146
+  - first:
+      213: 21300294
+    second: CakePlatforms_147
+  - first:
+      213: 21300296
+    second: CakePlatforms_148
+  - first:
+      213: 21300298
+    second: CakePlatforms_149
+  - first:
+      213: 21300300
+    second: CakePlatforms_150
+  - first:
+      213: 21300302
+    second: CakePlatforms_151
+  - first:
+      213: 21300304
+    second: CakePlatforms_152
+  - first:
+      213: 21300306
+    second: CakePlatforms_153
+  - first:
+      213: 21300308
+    second: CakePlatforms_154
+  - first:
+      213: 21300310
+    second: CakePlatforms_155
+  - first:
+      213: 21300312
+    second: CakePlatforms_156
+  - first:
+      213: 21300314
+    second: CakePlatforms_157
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CakePlatforms_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b836dd4422f7cac4b862091e81604a0c
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40db53281b51354428a3b503e6ea5665
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8e41970ac3ebc49a1e33dd841c7006
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368b9584d4bf5884996da5bddb2faeba
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993b15f36b5de5149ae966eccf17d877
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b66f73483f1db409ec9088c23b9848
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9376646d1a9f51f46a460730b56a66ad
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5563465dffcfba448b358f7640cda89
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d20cdba1c33e445a3b62507e89f480
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc114a1163efef4448ec6a4a4577de79
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_10
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 477
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abfa754ec7a50f4aa1ed276412639fa
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcd4b5266e28a1429a9a3485339cb44
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae9ebd76197f8144a3395f1d49777b5
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153b92b902322334a898244406a554b7
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cdc07cdba03f243bdd58a6522927b1
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3321ac0654f4a4c4bbb3616295af23ef
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d5ffc639d609b4e8d6af04c7d235a4
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4441f26871acafc4fae27e50ba0f9f38
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b329c58d429d26468afa69e7a3abcaa
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ee8eae3d36e44580a414be8bdf48f
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_20
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc297b1992722c44a94e92e68a41661
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a276d628a659fe54a81678fc376f99f6
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_22
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129cd4176d0ec2648aa2417d839ece22
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4a036837d399e4eabeaba1b56222f9
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_24
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3ae96af8a01a74198ec806727804a4
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358e13914faf5ae4785307944923b5fa
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4651adebf780786489a613b9ba64198b
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_27
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99bde392084caa4c86068f3e70361b7
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc356c16b5c5244aaae272c1e2a4452
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12fba847e6f742489d75f8806760829
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_30
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082a50c34a178a3428912030492f7bb8
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bda33dfed880c449d33af27e366854
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_32
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5f81817c3b19b439a7fe3947df95e2
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846ef6f0111f0d04bbfb9d0b3cef0de8
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_34
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 407
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d049c8b3d438b49943c89da99d6eee
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55a0936fe28902488b97aa78bca4a6f
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_36
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9880abd8c5f486642a61d3d964c0bb1f
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_37
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c854b0d9e69154fa9dc0c1db69e4c7
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_38
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeae8ca990b53641becd328e43a5276
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_39
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f139cc81ba02641418667a370b231245
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_40
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a773805aa49dc47b7105e9c251023a
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_41
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5b3315713cd8e4fab04423383ebf98
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_42
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549bc1c71eb42fc479680b0e061fcdea
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_43
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a0c1871bdee434da251ac1df4154fe
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_44
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56164bd088f85334492bf39bc2fdca20
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_45
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb07487cf6fa5ee4594e3b6af88c8823
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_46
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 372
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314c2315f595bbf459032397b7094afc
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9233b7047671304594311c43c028289
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_48
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9725ee1936f4e04185dcb66e7d4eede
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_49
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301bdebf53cf6d34798bcdb86bfb2a64
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_50
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e45aaedc1221346b0e7b6070fbd369
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f768effe0bf0c1744954df3a8319e035
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_52
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57493f2b2128d8c4b8f38365a7a35430
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_53
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1b0ba9bd3ed0a45805962f2ce10494
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_54
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d3d6ff7eb6b546a538249f78bb2df
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_55
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4e12b539e6e4040b3f3ece21eb0e93
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_56
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3101f0b80f07b3c4a9f474e1225fb550
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_57
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b6b308117df9c4e8d6db04487ab9c8
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_58
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 337
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef893dd238b9684eb02b03191497fd1
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a9f6e5a43daad48a9ef2d126b0806d
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_60
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a2fa054ad617f4ab5ce104395eba6f
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_61
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e020088d41f90584bbc242a4ce4db06e
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_62
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381e4b083e87f0843966367b48aad4b7
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_63
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f625af5d825f2cc4387997a75c62f693
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_64
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f5461d3e4d32045b310a391dcf607c
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_65
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447b5c42ec5722b4fb14ff8260decf1c
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_66
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d403f3596b29c43a167d6468d6d72d
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971cecc18f0438a48a75c35b681de84f
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_68
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786d934e1c4f69d4893984684eaa9f84
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_69
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f68860f3335b24e940a18091093a7b
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_70
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 302
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60ee7363c6fb1a478edae432fc2b750
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418dff7dc243ad34ca063b3ce87f0642
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_72
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8edef6a6db4a0f4693b4cce0d7ee295
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_73
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73932ec31f257494781e3d13a2bc8ad8
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_74
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a399c1f016e48ea44bf82ec6580a6069
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_75
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571634f95698ace488bd901ed788a32a
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_76
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1522e1f3f6523a841bb36af60faf397b
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_77
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ca8b30f3dabd3409de156dcd5cfce0
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_78
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cafd48b3efc1b4aad3aa4a4806f965
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_79
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449c4f0e1dc955e4da1c0f56605ebcd2
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_80
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45b37d5dd38f214d9fc9cba1d383fce
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_81
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e830a4d49fbd7e04fb52c7a2bc9e8bec
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_82
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 267
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dfb58dfb976a64897011b450610ac0
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3b6cc0885104a4ebb00764fdb700da
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_84
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1926a55323313964eac35455546de865
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_85
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725f61251693b2349bdd01ede4cd837d
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_86
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b642e38e8a471b45b5853987d3eff1d
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_87
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40364e9abd00fba4ebd3358393bfb6a9
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_88
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbb2dead3a910d46bcd107dc16939f7
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_89
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f494cbc47d8f542a6f5f525c326e32
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_90
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d718513e6a54d48a1caf1828460e95
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_91
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2fe5d7516928e46b5d4f4c5b91a509
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_92
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c604b6d4fcb63e44b93455dde9796428
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_93
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378b90c8b7b4b4a439809061894cb761
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_94
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 232
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28330a1167f6884d84c5bd9d219d394
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406fff8d03dcd6a43a5a1d7bc00472be
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_96
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747188d6ac69ed644af06940d944d699
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_97
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51165e2967d8e7f42be19b27bf359132
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_98
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54dbeec43c91424488a08d75979079b
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_99
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c98c1a50e86c845a061f9b10f39fb6
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_100
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51a5b9c19b91ee4584a4230782c2298
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_101
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06fe3b4e178b0541be5ec07b1f7456f
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_102
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4234397eb743a114eb8d76ad365b7afd
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_103
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88e305fc8cb1b340a1b031a37e2d1e4
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_104
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9197783e895993543bfc911221b99874
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_105
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88baedc8193f2924fa007e01f0a3607b
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_106
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 197
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edccf50a218e017489c3bfcb5a2559b4
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b6110d49140bf48ab2f9a3821686fa
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_108
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad76cdeafff4964f93ca05fd776de2a
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_109
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7de0d70847b2540a727d5f6628cf9a
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_110
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8aa4ca132164640b4cb88ab5fa0301
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_111
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018a1adc699d1644fbbc2048b41a936b
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_112
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90ac66146467274280f14c927476718
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_113
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c058e048e4a38fb40b1308a7b5c81501
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_114
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03f1bdc9855c2d46b3f80be5880cae1
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_115
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9badfd554e69f43acd348035b3b0ee
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_116
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df536b9f04d872b4fa56f833ca9f5d67
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_117
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc01a80e71980f341bef0048d2adc4e0
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_118
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 162
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49c6a88dc853be4c97120121621bf82
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5204ba6b28e0a46a0795db2e67bb8d
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_120
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ac721f8c53f149b7ddba555852cc3
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_121
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f1a376cb4b6f042b45eece67dba687
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_122
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f407c703a0c2f74f946f38eb510ffd4
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_123
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e76bb74a29c6d8419f49e5e42b90f59
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_124
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbf8f7a66c8d3e4dab98e2997fb3cf1
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_125
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31718b7ce0d810c48a01e3b4c3582036
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_126
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bd69ffb512d694ea001e05e720e47e
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_127
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39396e9ce53bca443a5b715b33e1d20d
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_128
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 127
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aade35a1018b46b418c65476332829cf
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811842fba4e4eba47a3001536e245ecf
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_130
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8bfd7095f915e45bf2d6e45da331f0
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_131
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fce8562f08c6f24e816c85b22f5a4c2
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_132
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9715ef9d6a8736544b4c1c071fce085e
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_133
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369534856ade7994abc24d6ac00dbaa6
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_134
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcf6c5a51eef614c9f6f22e605ee2f1
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_135
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b0461f58e795742bae890f8b29a4fa
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_136
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d494fcc49842574a8d45369b947c05b
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_137
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5accbee41a257874081dea4706a12c21
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_138
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 92
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fba66d50554a042890402ae887cc49
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757a3cf6596e5da4096b065c902fd2df
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_140
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdbd76603d8c3a4b9964abd7e3dddbd
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_141
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4109f0d24c45c428b0419be013994a
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_142
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dba3d6178f7ea84a959d5122f1b7f87
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_143
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a89fb7103ed4b047b66c6e03f99823d
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_144
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2752d4e8dbf8f4541b9d52f0a71399d9
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_145
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c6283b059effc4e8408ab4937abb5c
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_146
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcdff5157ed59649aec2a83a5b1a8ed
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_147
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 57
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75774d2fc744acf4c8c7dcee598a2d9a
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8489201c157dfb74d94540e4f18819ab
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_149
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a21190ce1ef06a499cc92fa7789fada
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_150
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3770cae04b2872c4686c47bd5449ce93
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_151
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35dce2f248d3584797f04e47ae02f2e
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_152
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ce6e3b6788dab4197eeeded23901f4
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_153
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73bebeb274bf534db1c4648d0fa5e54
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_154
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edcfdd725d11644380d548ebe0973d6
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_155
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7f0c5d0ccf7f74f9ff20e15b5f1e71
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_156
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85a773707b57714b9cd9e3dc9eb22b2
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CakePlatforms_157
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 22
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05043edf173a2504e9c34f1e6971af63
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b7dd36150017705459d199f9db79a039
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
