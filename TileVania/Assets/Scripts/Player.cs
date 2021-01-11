@@ -1,56 +1,129 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     // Config Parameters
+    [Header("Player Movement")]
     [SerializeField] float playerRunVelocity = 5f;
     [SerializeField] float playerJumpVelocity = 5f;
     [SerializeField] float playerClimbVelocity = 5f;
     [SerializeField] float playerClimbHorizontalVelocity = 1f;
     [SerializeField] float ladderGravityScale = 0f;
 
+    [Header("Player Lives/Death")]
+    [SerializeField] int playerHealth = 1;
+    [SerializeField] float damageDelay = 1f;
+    [SerializeField] float playerDeathLaunchVelocity = 20f;
+
     // Cached References
     Rigidbody2D myRigidBody;
     Animator myAnimator;
-    Collider2D myCollider;
+    CapsuleCollider2D myBodyCollider;
+    BoxCollider2D myFeetCollider;
+    
     float gravityScaleAtStart;
 
     // State Variables
-    [SerializeField] bool isRunning = false;
-    [SerializeField] bool isClimbing = false;
-    [SerializeField] bool isInAir = false;
+    bool isRunning = false;
+    bool isClimbing = false;
+    bool isInAir = false;
 
-    bool jumpedFromBottomOfLadder = false;
+    bool isDead = false;
+    bool isTimerUp = true;
+
+    bool isPaused = false;
+
+    bool jumpedFromBottomOrTopOfLadder = false;
     bool standingAtTopOfLadder = false;
     bool standingAtBottomOfLadder = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (isInAir)
+        {
+            // To prevent warning about unused variable
+        }
+        
         myRigidBody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
-        myCollider = GetComponent<Collider2D>();
-
+        myBodyCollider = GetComponent<CapsuleCollider2D>();
+        myFeetCollider = GetComponent<BoxCollider2D>();
+        
         gravityScaleAtStart = myRigidBody.gravityScale;
     }
 
     // Update is called once per frame
     void Update()
     {
-        HandleAnimations();
+        if (!isPaused)
+        {
+            CheckRestart();
 
-        Run();
+            HandleAnimations();
 
-        ClimbLadder();
+            if (!isDead)
+            {
+                CheckDamaged();
 
-        CheckJump();
+                Run();
 
-        HandleSpriteFlipping();
+                ClimbLadder();
+
+                CheckJump();
+
+                HandleSpriteFlipping();
+            }
+        }  
+    }
+
+    private void CheckDamaged()
+    {
+        if (isTimerUp)
+        {
+            if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies")) || myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Enemies"))
+                || myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Hazards")) || myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Hazards")))
+            {
+                playerHealth--;
+
+                if (playerHealth <= 0)
+                {
+                    Die();
+                }
+                else
+                {
+                    StartCoroutine(DeathDetectionTimeout());
+                }
+            }
+        }
+    }
+
+    private void Die()
+    {
+        Vector2 deathVelocity = new Vector2(Random.Range(-0.2f, 0.2f), 1f) * playerDeathLaunchVelocity;
+
+        myRigidBody.velocity = deathVelocity;
+
+        isDead = true;
+
+        GameSession gameSession = FindObjectOfType<GameSession>();
+        gameSession.ProcessPlayerDeath();
+    }
+
+    private void CheckRestart()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+        }
     }
 
     private void HandleAnimations()
     {
+        myAnimator.SetBool("isDead", isDead);
+
         myAnimator.SetBool("isClimbing", isClimbing);
 
         myAnimator.SetBool("isRunning", isRunning);
@@ -75,7 +148,8 @@ public class Player : MonoBehaviour
 
     private void CheckJump()
     {
-        if (!myCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) && !myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Enemies"))
+             && !myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Hazards")))
         {
             isInAir = true;
             return;
@@ -85,7 +159,7 @@ public class Player : MonoBehaviour
             isInAir = false;
         }
 
-        if (Input.GetButtonDown("Jump") && !isClimbing && !jumpedFromBottomOfLadder)
+        if (Input.GetButtonDown("Jump") && !isClimbing && !jumpedFromBottomOrTopOfLadder)
         {
             Jump();
         }
@@ -103,7 +177,7 @@ public class Player : MonoBehaviour
     private void ClimbLadder()
     {
         // See if standing at the top of the ladder
-        if (myCollider.IsTouchingLayers(LayerMask.GetMask("LadderTops")) && !standingAtTopOfLadder && isClimbing)
+        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("LadderTops")) && !standingAtTopOfLadder && isClimbing)
         {
             standingAtTopOfLadder = true;
 
@@ -117,15 +191,27 @@ public class Player : MonoBehaviour
         }
         
         // If we're at the top, "leave" the top if we are no longer touching the collider
-        if (standingAtTopOfLadder && !myCollider.IsTouchingLayers(LayerMask.GetMask("LadderTops")))
+        if (standingAtTopOfLadder && !myBodyCollider.IsTouchingLayers(LayerMask.GetMask("LadderTops")))
         {
             standingAtTopOfLadder = false;
             myRigidBody.gravityScale = gravityScaleAtStart;
         }
 
-        // If we're standing at the top, check if we're trying to move down back onto the ladder
+        // If we're standing at the top, check if we're trying to move down back onto the ladder, or trying to jump off the top
         if (standingAtTopOfLadder)
         {
+            if (Input.GetButtonDown("Jump"))
+            {
+                myRigidBody.gravityScale = gravityScaleAtStart;
+
+                Jump();
+
+                jumpedFromBottomOrTopOfLadder = true;
+
+                StartCoroutine(WaitAndResetJumpedFromBottomOrTopOfLadder());
+
+                return;
+            }
 
             float topInput = Input.GetAxis("Vertical");
 
@@ -147,8 +233,8 @@ public class Player : MonoBehaviour
 
         // Check if we are at the bottom of the ladder, and continue moving down to get off.
         if (
-            isClimbing && !standingAtBottomOfLadder && myCollider.IsTouchingLayers(LayerMask.GetMask("Ladders")) 
-            && myCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) && Input.GetAxis("Vertical") < 0f 
+            isClimbing && !standingAtBottomOfLadder && myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Ladders")) 
+            && myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) && Input.GetAxis("Vertical") < 0f 
             && Mathf.Abs(myRigidBody.velocity.y) < Mathf.Epsilon
             )
         {
@@ -165,7 +251,7 @@ public class Player : MonoBehaviour
         // If we are standing at the bottom of the ladder, get back on if we're moving up, or move away if we are no longer touching the ladder
         if (standingAtBottomOfLadder)
         {
-            if (!myCollider.IsTouchingLayers(LayerMask.GetMask("Ladders")) || Input.GetAxis("Vertical") > 0f)
+            if (!myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Ladders")) || Input.GetAxis("Vertical") > 0f)
             {
                 standingAtBottomOfLadder = false;
             }
@@ -174,7 +260,7 @@ public class Player : MonoBehaviour
         }
 
         // If we aren't touching a ladder, don't do anything
-        if (!myCollider.IsTouchingLayers(LayerMask.GetMask("Ladders")))
+        if (!myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Ladders")))
         {
             myAnimator.enabled = true;
 
@@ -224,17 +310,31 @@ public class Player : MonoBehaviour
             isClimbing = false;
             myAnimator.SetBool("isClimbing", isClimbing);
 
-            jumpedFromBottomOfLadder = true;
+            jumpedFromBottomOrTopOfLadder = true;
 
-            StartCoroutine(WaitAndResetJumpedFromBottomOfLadder());
+            StartCoroutine(WaitAndResetJumpedFromBottomOrTopOfLadder());
         }
     }
 
-    private IEnumerator WaitAndResetJumpedFromBottomOfLadder()
+    private IEnumerator WaitAndResetJumpedFromBottomOrTopOfLadder()
     {
         yield return new WaitForSeconds(0.2f);
 
-        jumpedFromBottomOfLadder = false;
+        jumpedFromBottomOrTopOfLadder = false;
+    }
+
+    private IEnumerator DeathDetectionTimeout()
+    {
+        myAnimator.SetBool("isHurt", true);
+
+        isTimerUp = false;
+
+        yield return new WaitForSeconds(damageDelay);
+
+        isTimerUp = true;
+        
+        myAnimator.SetBool("isHurt", false);
+        myAnimator.SetTrigger("backToIdle");
     }
 
     private void HandleSpriteFlipping()
@@ -244,6 +344,47 @@ public class Player : MonoBehaviour
             float playerDirection = Mathf.Sign(myRigidBody.velocity.x);
             
             transform.localScale = new Vector2(playerDirection, 1f);
+        }
+    }
+
+    public int GetHealth()
+    {
+        return playerHealth;
+    }
+
+    public void PauseControls()
+    {
+        isPaused = true;
+    }
+
+    public void UnpauseControls()
+    {
+        isPaused = false;
+    }
+
+    public void SetDoorWalkingAnimation(float timeToFade)
+    {
+        isRunning = false;
+        isClimbing = true;
+        
+        myAnimator.SetBool("isRunning", isRunning);
+        myAnimator.SetBool("isClimbing", isClimbing);
+
+        StartCoroutine(FadeToDistance(timeToFade));
+    }
+
+    IEnumerator FadeToDistance(float timeToFade)
+    {
+        float startScale = gameObject.transform.localScale.x;
+        float endScale = 0f;
+
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / timeToFade)
+        {
+            Vector2 newScale = new Vector2( Mathf.Abs(Mathf.Lerp(startScale, endScale, t)), Mathf.Abs(Mathf.Lerp(startScale, endScale, t)) );
+
+            gameObject.transform.localScale = newScale;
+
+            yield return null;
         }
     }
 }

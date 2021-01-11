@@ -1,0 +1,944 @@
+fileFormatVersion: 2
+guid: 559890ae253e69d4c9adce610559f724
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7623724481791948612
+    second: slime.jiggle_0
+  - first:
+      213: 7454143045967177374
+    second: slime.jiggle_1
+  - first:
+      213: 1507971049354681785
+    second: slime.jiggle_2
+  - first:
+      213: 8429697011248076264
+    second: slime.jiggle_3
+  - first:
+      213: 7338447218879934990
+    second: slime.jiggle_4
+  - first:
+      213: -8029914412703367799
+    second: slime.jiggle_5
+  - first:
+      213: -7841774193887054221
+    second: slime.jiggle_6
+  - first:
+      213: 3582586763679880864
+    second: slime.jiggle_7
+  - first:
+      213: -7546187699794832583
+    second: slime.jiggle_8
+  - first:
+      213: -7715597402009330779
+    second: slime.jiggle_9
+  - first:
+      213: 4193089486827956123
+    second: slime.jiggle_10
+  - first:
+      213: -8746977835107632051
+    second: slime.jiggle_11
+  - first:
+      213: -6436256537050262332
+    second: slime.jiggle_12
+  - first:
+      213: -9089533695110128199
+    second: slime.jiggle_13
+  - first:
+      213: -3030156877673246237
+    second: slime.jiggle_14
+  - first:
+      213: 1207191170825587231
+    second: slime.jiggle_15
+  - first:
+      213: 84014962895431505
+    second: slime.jiggle_16
+  - first:
+      213: 1983925145059281663
+    second: slime.jiggle_17
+  - first:
+      213: 3479244165891109332
+    second: slime.jiggle_18
+  - first:
+      213: 8286329271480549929
+    second: slime.jiggle_19
+  - first:
+      213: 8540688075251483697
+    second: slime.jiggle_20
+  - first:
+      213: -6652590945997466666
+    second: slime.jiggle_21
+  - first:
+      213: -1029961708016502285
+    second: slime.jiggle_22
+  - first:
+      213: 4346967006154688725
+    second: slime.jiggle_23
+  - first:
+      213: 8923384961571440040
+    second: slime.jiggle_24
+  - first:
+      213: -2617524816753104924
+    second: slime.jiggle_25
+  - first:
+      213: -3230428369203579225
+    second: slime.jiggle_26
+  - first:
+      213: -5781335825015476287
+    second: slime.jiggle_27
+  - first:
+      213: -7724582353823044653
+    second: slime.jiggle_28
+  - first:
+      213: 7142467688942993693
+    second: slime.jiggle_29
+  - first:
+      213: 7381888193463711575
+    second: slime.jiggle_30
+  - first:
+      213: -7212646038457194982
+    second: slime.jiggle_31
+  - first:
+      213: 8403935002480193816
+    second: slime.jiggle_32
+  - first:
+      213: -2775913481728581234
+    second: slime.jiggle_33
+  - first:
+      213: -1796639164940069774
+    second: slime.jiggle_34
+  - first:
+      213: 245452962259116399
+    second: slime.jiggle_35
+  - first:
+      213: 6809649071053580217
+    second: slime.jiggle_36
+  - first:
+      213: 5591386510695486083
+    second: slime.jiggle_37
+  - first:
+      213: -5805555050346471152
+    second: slime.jiggle_38
+  - first:
+      213: 3618933047697097152
+    second: slime.jiggle_39
+  - first:
+      213: 6378197936636732307
+    second: slime.jiggle_40
+  - first:
+      213: 3339010779638166792
+    second: slime.jiggle_41
+  - first:
+      213: -1541877495237321968
+    second: slime.jiggle_42
+  - first:
+      213: 5764068813854111937
+    second: slime.jiggle_43
+  - first:
+      213: -2935697881211497011
+    second: slime.jiggle_44
+  - first:
+      213: -3373586949250581077
+    second: slime.jiggle_45
+  - first:
+      213: 4145937958520786591
+    second: slime.jiggle_46
+  - first:
+      213: 7586418946924899902
+    second: slime.jiggle_47
+  - first:
+      213: 5933020736797615550
+    second: slime.jiggle_48
+  - first:
+      213: 1038079112550663696
+    second: slime.jiggle_49
+  - first:
+      213: 4042966611815817945
+    second: slime.jiggle_50
+  - first:
+      213: -4788166602552321593
+    second: slime.jiggle_51
+  - first:
+      213: -2509392323530576876
+    second: slime.jiggle_52
+  - first:
+      213: 4902958705610059124
+    second: slime.jiggle_53
+  - first:
+      213: -1100374500923528038
+    second: slime.jiggle_54
+  - first:
+      213: -7614014789694893849
+    second: slime.jiggle_55
+  - first:
+      213: 6440558468563303332
+    second: slime.jiggle_56
+  - first:
+      213: -2048906864815774512
+    second: slime.jiggle_57
+  - first:
+      213: -9044952574295276885
+    second: slime.jiggle_58
+  - first:
+      213: -318250369961198324
+    second: slime.jiggle_59
+  - first:
+      213: 4211936598181738635
+    second: slime.jiggle_60
+  - first:
+      213: -5610398609087785653
+    second: slime.jiggle_61
+  - first:
+      213: 5918417060151721448
+    second: slime.jiggle_62
+  - first:
+      213: 3330681496103074087
+    second: slime.jiggle_63
+  - first:
+      213: 4896903257896889576
+    second: slime.jiggle_64
+  - first:
+      213: -5971231601431754558
+    second: slime.jiggle_65
+  - first:
+      213: -232218642816332783
+    second: slime.jiggle_66
+  - first:
+      213: -463266491615548957
+    second: slime.jiggle_67
+  - first:
+      213: 7335899768332764135
+    second: slime.jiggle_68
+  - first:
+      213: 8447312967498946780
+    second: slime.jiggle_69
+  - first:
+      213: 8859433360191848806
+    second: slime.jiggle_70
+  - first:
+      213: 7058295698127525016
+    second: slime.jiggle_71
+  - first:
+      213: -3742257582653939357
+    second: slime.jiggle_72
+  - first:
+      213: 7020182706679776201
+    second: slime.jiggle_73
+  - first:
+      213: -3902233200766355980
+    second: slime.jiggle_74
+  - first:
+      213: -9040274500588424543
+    second: slime.jiggle_75
+  - first:
+      213: 7661092861551015098
+    second: slime.jiggle_76
+  - first:
+      213: 1093810367388043860
+    second: slime.jiggle_77
+  - first:
+      213: 4152394382761489751
+    second: slime.jiggle_78
+  - first:
+      213: 3944685064900019917
+    second: slime.jiggle_79
+  - first:
+      213: 4317678473658633152
+    second: slime.jiggle_80
+  - first:
+      213: 4700489358419735672
+    second: slime.jiggle_81
+  - first:
+      213: 578647130282321722
+    second: slime.jiggle_82
+  - first:
+      213: 4038888380424948141
+    second: slime.jiggle_83
+  - first:
+      213: 9195667845526029803
+    second: slime.jiggle_84
+  - first:
+      213: 2841278888305198309
+    second: slime.jiggle_85
+  - first:
+      213: 8236044035997573179
+    second: slime.jiggle_86
+  - first:
+      213: -4137096832454334484
+    second: slime.jiggle_87
+  - first:
+      213: -67197659667963325
+    second: slime.jiggle_88
+  - first:
+      213: 6769294404424941703
+    second: slime.jiggle_89
+  - first:
+      213: -7998101516990154023
+    second: slime.jiggle_90
+  - first:
+      213: 8830549877363891109
+    second: slime.jiggle_91
+  - first:
+      213: -6182893177921850636
+    second: slime.jiggle_92
+  - first:
+      213: 1696330681199686269
+    second: slime.jiggle_93
+  - first:
+      213: -481814318749375985
+    second: slime.jiggle_94
+  - first:
+      213: -8731044110673980558
+    second: slime.jiggle_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slime.jiggle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44778a22609ecc960800000000000000
+      internalID: 7623724481791948612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9662d74b9f627760800000000000000
+      internalID: 7454143045967177374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bddb580ea36de410800000000000000
+      internalID: 1507971049354681785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e51d9fe4cc4cf470800000000000000
+      internalID: 8429697011248076264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02ba446dd667d560800000000000000
+      internalID: 7338447218879934990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98db60ec263009090800000000000000
+      internalID: -8029914412703367799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376798c0beb6c2390800000000000000
+      internalID: -7841774193887054221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6d7222ea7e7b130800000000000000
+      internalID: 3582586763679880864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9339e49b44e864790800000000000000
+      internalID: -7546187699794832583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab9e47ba01bce490800000000000000
+      internalID: -7715597402009330779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b972ecd1ca8d03a30800000000000000
+      internalID: 4193089486827956123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cb130a00e7c9680800000000000000
+      internalID: -8746977835107632051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c455d1c7c2dda6a0800000000000000
+      internalID: -6436256537050262332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd5401434d7bd180800000000000000
+      internalID: -9089533695110128199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1549ccf58b2f5d0800000000000000
+      internalID: -3030156877673246237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a0c0159fdc0c010800000000000000
+      internalID: 1207191170825587231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1572333e92b7a2100800000000000000
+      internalID: 84014962895431505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa493c7861588b10800000000000000
+      internalID: 1983925145059281663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d13ac29222c84030800000000000000
+      internalID: 3479244165891109332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922058ec194fef270800000000000000
+      internalID: 8286329271480549929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13487cecd8e968670800000000000000
+      internalID: 8540688075251483697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d357d318cf3da3a0800000000000000
+      internalID: -6652590945997466666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9fb659847d4b1f0800000000000000
+      internalID: -1029961708016502285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime.jiggle_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8813cf577835c30800000000000000
+      internalID: 4346967006154688725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

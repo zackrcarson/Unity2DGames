@@ -62,9 +62,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\GameOverScreen.cs" />
+    <Compile Include="Assets\Scripts\GameSession.cs" />
+    <Compile Include="Assets\Scripts\LevelExit.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\ResourceDisplay.cs" />
+    <None Include="Assets\Sprites\Enemies\craftpix-560412-xmas-candy-sprites\License.txt" />
+    <None Include="Assets\Sprites\Enemies\craftpix-560412-xmas-candy-sprites\readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
@@ -101,6 +112,9 @@
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
@@ -305,6 +319,9 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

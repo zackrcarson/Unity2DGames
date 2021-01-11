@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Game Over
   layers:
   - Default
   - TransparentFX
@@ -16,11 +18,11 @@ TagManager:
   - Ground
   - Ladders
   - LadderTops
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Background
+  - Enemies
+  - Hazards
+  - Interactables
   - 
   - 
   - 
@@ -46,6 +48,15 @@ TagManager:
     locked: 0
   - name: Ladders
     uniqueID: 3909842045
+    locked: 0
+  - name: Enemies
+    uniqueID: 3354462879
+    locked: 0
+  - name: Hazards
+    uniqueID: 4152089069
+    locked: 0
+  - name: Interactables
+    uniqueID: 2328039609
     locked: 0
   - name: Player
     uniqueID: 1549493079

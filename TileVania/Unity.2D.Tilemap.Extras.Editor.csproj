@@ -319,6 +319,9 @@
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/khfre/Documents/GameDev/Unity2DCourse/Unity2DGames/TileVania/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
