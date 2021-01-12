@@ -22,7 +22,8 @@ public class Player : MonoBehaviour
     Animator myAnimator;
     CapsuleCollider2D myBodyCollider;
     BoxCollider2D myFeetCollider;
-    
+    GameSession gameSession;
+
     float gravityScaleAtStart;
 
     // State Variables
@@ -39,6 +40,8 @@ public class Player : MonoBehaviour
     bool standingAtTopOfLadder = false;
     bool standingAtBottomOfLadder = false;
 
+    bool gameSessionFound = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +56,11 @@ public class Player : MonoBehaviour
         myFeetCollider = GetComponent<BoxCollider2D>();
         
         gravityScaleAtStart = myRigidBody.gravityScale;
+
+        if (FindObjectOfType<GameSession>())
+        {
+            FindObjectOfType<GameSession>().UpdateUI();
+        }
     }
 
     // Update is called once per frame
@@ -86,7 +94,17 @@ public class Player : MonoBehaviour
             if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies")) || myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Enemies"))
                 || myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Hazards")) || myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Hazards")))
             {
+
+                if (!gameSessionFound)
+                {
+                    gameSession = FindObjectOfType<GameSession>();
+
+                    gameSessionFound = true;
+                }
+
                 playerHealth--;
+
+                gameSession.UpdateUI();
 
                 if (playerHealth <= 0)
                 {
@@ -107,8 +125,7 @@ public class Player : MonoBehaviour
         myRigidBody.velocity = deathVelocity;
 
         isDead = true;
-
-        GameSession gameSession = FindObjectOfType<GameSession>();
+        
         gameSession.ProcessPlayerDeath();
     }
 

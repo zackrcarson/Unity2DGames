@@ -18,6 +18,14 @@ public class Menu : MonoBehaviour
         player = FindObjectOfType<Player>();
 
         levelExit.SetFirstLastLevel();
+
+        var totalNumberOfScenes = SceneManager.sceneCountInBuildSettings;
+        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentSceneIndex == totalNumberOfScenes - 1)
+        {
+            FindObjectOfType<UI>().gameObject.SetActive(false);
+        }
     }
 
     public void StartFirstLevel()

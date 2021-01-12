@@ -11,15 +11,18 @@ public class LevelExit : MonoBehaviour
     // Cached References
     SpriteRenderer myRenderer;
     Player player;
+    GameSession gameSession;
 
     // State variables
     bool isOnDoor = false;
     bool isFirstLastLevel = false;
+    bool isGameSessionFound = false;
 
     private void Start()
     {
         myRenderer = GetComponent<SpriteRenderer>();
         player = FindObjectOfType<Player>();
+        gameSession = FindObjectOfType<GameSession>();
     }
 
     private void OnTriggerEnter2D(Collider2D otherCollider)
@@ -40,6 +43,13 @@ public class LevelExit : MonoBehaviour
 
     private void Update()
     {
+        if (!isGameSessionFound)
+        {
+            gameSession = FindObjectOfType<GameSession>();
+
+            isGameSessionFound = true;
+        }
+
         if (!isFirstLastLevel)
         {
             if (isOnDoor && Input.GetAxisRaw("Vertical") > 0)
@@ -51,6 +61,10 @@ public class LevelExit : MonoBehaviour
 
     IEnumerator OpenDoorDelayAndLoadNextScene()
     {
+        gameSession.ResetCoinsFromThisLevel();
+
+        gameSession.UpdateUI();
+
         myRenderer.sprite = doorOpenSprite;
 
         player.PauseControls();
@@ -61,13 +75,17 @@ public class LevelExit : MonoBehaviour
         LoadNextScene();
     }
 
-    private static void LoadNextScene()
+    private void LoadNextScene()
     {
+        gameSession.ResetInitialUIUpdated();
+
         var totalNumberOfScenes = SceneManager.sceneCountInBuildSettings;
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
         if (currentSceneIndex == totalNumberOfScenes - 1)
         {
+            gameSession.SelfDestruct();
+
             SceneManager.LoadScene(0);
         }
         else

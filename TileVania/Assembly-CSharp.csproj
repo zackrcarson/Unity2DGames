@@ -62,6 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Coin.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\GameOverScreen.cs" />
     <Compile Include="Assets\Scripts\GameSession.cs" />
@@ -69,6 +71,8 @@
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\ResourceDisplay.cs" />
+    <Compile Include="Assets\Scripts\UI.cs" />
+    <Compile Include="Assets\Scripts\VerticalScroll.cs" />
     <None Include="Assets\Sprites\Enemies\craftpix-560412-xmas-candy-sprites\License.txt" />
     <None Include="Assets\Sprites\Enemies\craftpix-560412-xmas-candy-sprites\readme.txt" />
     <Reference Include="Unity.Timeline.Editor">

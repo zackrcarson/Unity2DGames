@@ -6,6 +6,7 @@ public class ResourceDisplay : MonoBehaviour
     // Config Params
     [SerializeField] Text healthText = null;
     [SerializeField] Text livesText = null;
+    [SerializeField] Text coinsText = null;
 
     // Cached References
     Player player;
@@ -14,7 +15,9 @@ public class ResourceDisplay : MonoBehaviour
     // State Variables
     int playerLives = 0;
     int playerHealth = 0;
-    bool ifo = false;
+    int playerCoins = 0;
+
+    bool isGameSessionFound = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,20 +30,25 @@ public class ResourceDisplay : MonoBehaviour
 
         playerLives = gameSession.GetLives();
         livesText.text = playerLives.ToString();
+
+        playerCoins = gameSession.GetCoins();
+        coinsText.text = playerCoins.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!ifo)
+        if (!isGameSessionFound)
         {
             gameSession = FindObjectOfType<GameSession>();
 
-            ifo = true;
+            isGameSessionFound = true;
         }
 
         healthText.text = player.GetHealth().ToString();
 
         livesText.text = gameSession.GetLives().ToString();
+
+        coinsText.text = gameSession.GetCoins().ToString();
     }
 }
